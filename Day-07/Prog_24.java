@@ -23,3 +23,4 @@ public class Prog_24 {
 
         System.out.println(result);
     }
+}
