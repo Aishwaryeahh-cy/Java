@@ -1,4 +1,4 @@
-public class Prog_18{
+7public class Prog_18{
     static String getGrade(int marks){
         if (marks>=90){
             return "Amazing";
