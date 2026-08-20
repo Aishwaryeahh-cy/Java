@@ -1,4 +1,4 @@
-public class Prog_23{
+jpublic class Prog_23{
     public static int[] twopointers(int[]arr,int target){
         int left = 0;
         int right =arr.length -1;
