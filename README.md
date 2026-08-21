@@ -11,4 +11,4 @@ A daily coding journey focused on learning and improving Java programming.
 ### Topics
 Java Basics • Conditions • Loops • Methods • Arrays • Strings • OOP • Collections • Problem Solving
 
-> Learning, practicing, debugging, and improving — one day at a time.
+> Learning, practicing, debugging, and improving — one day at a time..
