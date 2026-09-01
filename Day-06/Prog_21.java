@@ -13,5 +13,5 @@ public class Prog_21{
         int arr[]={67,90,77,8,9,97};
         System.out.println(linearSearch(arr,90));
         System.out.println(linearSearch(arr,89));
-    }
+    
 }
