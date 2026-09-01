@@ -1,0 +1,15 @@
+h1 {
+    color: blue;
+}
+
+label {
+    font-size: 18px;
+}
+
+input {
+    padding: 8px;
+}
+
+#submitBtn {
+    padding: 10px;
+}
