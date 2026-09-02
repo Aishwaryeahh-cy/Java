@@ -1,4 +1,4 @@
-upublic class Prog_24 {
+public class Prog_24 {
 
     public static boolean palindrome(char[] arr) {
         int left = 0;
