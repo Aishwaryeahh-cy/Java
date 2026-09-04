@@ -1,4 +1,4 @@
-// public class Prog_27{
+//public class Prog_27{
 //     static void sayHello(){
 //         System.out.println("Hello World");
 //     }
