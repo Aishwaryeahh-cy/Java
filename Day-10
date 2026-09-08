@@ -1,0 +1,121 @@
+Day-10 Java
+
+Source file/Javafile
+JRE is a software tht provides pre - representative program such as
+1.System libraries
+2.Java.doc
+3.JIT compiler etc helps in the execution process by 1st JVM.
+
+Components of java:
+class or interface or enum
+class class_name{
+initialization;
+(int a = 15);
+(int b = 20);
+functions;
+}
+
+Tokens:
+Smallest units of programmimg
+1.keywords : predefined words which has some meaning in it nd cannot be changed.
+ex: int,byte,short,long,double etc.
+
+2.identifires : names given to components of java
+int age;
+
+3.literals : data/raw fact inside the program.
+ 
+4.separators : symbols used to segregate the code 
+ex : {} , ; , () , [] etc.
+
+variable : named block of memory.
+syntax: declaration statement;
+datatype identifier;
+initialization
+identifier = data;
+
+
+Data Type:
+1. primitive:
+Number-Itegers -byte
+	       -short
+               -int
+               -long
+       -Floating
+               -float 
+               -double 
+
+Single character
+Boolean
+
+2. Non-primitive
+String
+
+
+-Whenever we represnt a integer literal in program tht literal is considered as int type.
+-Whenever we represnt a decimal literal in program tht literal is considered as double type.
+
+Operators:
+1.Arithmetic (+,-,*,/,% (reminder))
+2.Relational (<,>,<=,>=,==,!=)
+3.Logical    (AND,NOT,OR,NOR,&&, || ,!)
+4.Bitwise    (& ,|, ~,>>,<<)
+5.Uninary    performs operarion on 1 operand
+6.Binary     performs operarion on 2 operand 
+6.Terinary   performs operarion on 3 operand
+7.Assignment 
+8.Increment
+9.Decrement
+
+op1 op2  &&  ||
+F    F   F   F
+T    F   F   T
+F    T   F   T
+T    T   T   T
+
+!true => false
+!false => true
+
+4&5
+~x => -(x+1);
+a>>b = a/2^b;
+a<<b = a*2^b;
+x+=2;//x=x+2;
+x-=3;//x=x-3;
+x*=3;//x=x/3;
+x%=3;//x=x%3;
+
+
+ASSIGNMENT OPERATOR
+
+preincrement= ++x
+postincrement= x++
+predecrement= --x
+postdecrement= x--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
