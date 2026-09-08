@@ -1,0 +1,124 @@
+Day-11	Java
+
+public class First{
+public static void main(String[]args){
+int p = 55;
+int q = 6;
+int z = p++ - --q - q--;
+int x = z++ - q-- + --p;
+//values of p,q,z,x;
+System.out.println(" p is : " +p);
+System.out.println(" q is : " +q);
+System.out.println(" z is : " +z);
+System.out.println(" x is : " +x);
+
+int p = 5 + 2 * 7;
+System.out.println("p is :" + p);
+int q = 15/5 *25;
+System.out.println("q is :" + q);
+int q1= 15 * 25/5;
+System.out.println("q is :" + q1);
+int q2= 100*10 / 2;
+System.out.println("q is :" + q2);
+int q3= (100*10) / 2;
+System.out.println("q is :" + q3);
+//op1 + op2-->
+//when both operands are numbers --are addition
+//when any one of the operand is string
+String S = "hellow world";
+System.out.println(5+s);
+System.out.println(s+5+5);
+System.out.println(
+
+}
+}
+
+Precedence  Operators                         |Associativity|
+--------------------------------------------------------------
+Highest     (),[],.,expr++ ,expr--(Postfix)    Left to Right 
+            expr++,expr--,+ , - !, ~, (type)   Left to Right 
+            * , / , +, - (binary)              Right to Left
+            << , >> ,>>                        Left to Right
+            <,<=,>,>=,instanceof               Left to Right
+            ==,!=                              Left to Right
+            &                                  Left to Right
+            ^                                  Left to Right
+            |                                  Left to Right
+            &&                                 Left to Right
+            ||                                 Left to Right
+            ?: (Ternary)                       Right to Left
+
+Lowest      '=','+=','-=','*=','/=','%='       Right to Left
+
+Condition STATEMENT
+if
+else-if
+else-if ladder
+nested if
+switch()
+
+if (condition){
+stmts;
+}
+if(condition){
+stmts;
+}else{
+stmts;
+}
+
+
+if (condition){
+stmts1;
+}else if(condition){
+stmts2;
+}else if(condition){
+stmts2;
+}else if(condition){
+stmts2;
+}.
+ .
+ .
+ .
+}else{
+stmts;
+}
+
+if (condition1){
+stmts1;
+}if(condition2){
+stmts2;
+}else if(condition){
+stmts3;
+}else if(condition)
+stmts4;
+}.
+ .
+ .
+ .
+}else{
+stmts}
+
+switch(expression){
+case value 1:
+stmts1;
+//break;
+case value 2:
+stmts2;
+//break;
+case value 3:
+stmts3;
+//break;
+.
+.
+default:
+stmts4;
+}
+
+
+expression can contain byte,short,int,char,string,enum
+it will not allow long,float,double,boolean
+values should be constants (should not use variables)
+working
+1.the result of expression is compared with case values if 
+that matches then it will execute the statements under the case.
+2.we use break to exit the switch......
