@@ -1,0 +1,52 @@
+Day-13 Java
+
+Method Syntax
+Access Specifiers:public
+Access Modifiers: static
+Method main : main
+Formal :string
+Argument : args
+
+Return statement - Doesn't print but returns the values.
+Methods- Can be reused again.
+Array - To store multiple values of Same data type.
+1.datatype[] identifier = {value1,value2,value3...}
+2.datatype[] identifier = newdatatype[size];
+
+Characteristics of array:
+1.Homogeneous data(Similar datatype)
+2.Arrys r fixeed in size.
+3.Before creating the array we need to know the size.
+4.Arrays r non primitive.
+
+Class memebers:
+1.Global Members
+        |----------------------------------------|
+ Static Members                            Non-Static Members
+        |                                        |
+ Static variables                          Non Static Variable/Instance Variable
+        |                                        |
+       SIB                                      IIB
+        |                                        |
+ Static Method                             Non-Static Method
+
+
+
+2.Local Members
+       |
+  Local Variable
+        |
+  Local anonymous blocks
+
+* Static only for global variables.
+* Local cannot access global variables.
+If we r using the same scope the variable cannot be used again if not it can be used.
+
+
+Types Of Data:
+Integer --------> 0
+Floating -------> 0.0
+Boolean --------> False
+Char------------> Empty Character '\u000'
+String\
+Non-primitive---> Null
