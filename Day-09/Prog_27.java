@@ -1,45 +1,45 @@
-// public class Prog_27{
-//     static void sayHello(){
-//         System.out.println("Hello World");
-//     }
-//     public static void main(String[] args) {
-//         sayHello();
-//     }
-// }
+public class Prog_27{
+    static void sayHello(){
+        System.out.println("Hello World");
+    }
+    public static void main(String[] args) {
+        sayHello();
+    }
 
 
-// public class Prog_27{
-//     static void square(int n){
-//         int sq = n*n;
-//         System.out.println(sq);
-//     }
-//     public static void main(String[] args) {
-//         square(3);
-//     }
-// }
 
-// public class Prog_27{
-//     static int multiply(int a, int b){
-//         int res=(a*b);
-//         return res;
-//     }
-//     public static void main(String[] args) {
-//         System.out.println(multiply(4,5));
+public class Prog_27{
+    static void square(int n){
+        int sq = n*n;
+        System.out.println(sq);
+    }
+    public static void main(String[] args) {
+        square(3);
+    }
+}
+
+public class Prog_27{
+    static int multiply(int a, int b){
+        int res=(a*b);
+        return res;
+    }
+    public static void main(String[] args) {
+        System.out.println(multiply(4,5));
         
-//     }
-// }
+    }
+}
 
-// public class Prog_27{
-//     static boolean isPositive(int n){
-//         if (n %2==0){
-//             return true;
-//         }
-//         return false;
-//     }
-//     public static void main(String[] args) {
-//         System.out.println(isPositive(9));
-//     }
-// }
+public class Prog_27{
+    static boolean isPositive(int n){
+        if (n %2==0){
+            return true;
+        }
+        return false;
+    }
+    public static void main(String[] args) {
+        System.out.println(isPositive(9));
+    }
+}
 
 
 public class Prog_27{
