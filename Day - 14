@@ -1,0 +1,32 @@
+Day-14 Java
+
+-Polymorphism
+1.Compile Time Polymorphism:(Method wid same name nd different parameters).
+2.Run-Time Polymorphism:(Method Overridding -Same name same arguments).(This is Important).
+Implicit-Means will work with compiler.
+int -  float =It's called widening(Small to big its widening).
+But the same thing is vice versa in narrowing (double - int).
+Upcasting and Downcasting of Polymorphism
+Upcasting- From Child To Parent Class.
+Downcastig-From Parent to Child Class.(Direct downcasting is not possible in java).
+
+Non primitive typeCasting:
+-The process of Converting the reference from one non-primitive type to another non-primitive tye is called non-primitive.
+-In this we have 2 types:
+1.Auto Upcasting - The process of convertig the reference frm child type to parent type.
+                   This process is Automatic frm JDK 1.5 version so it is called as Auto Upcasting.
+                   Whenever we performupcasting we can access only parent class.
+2.Explicit Downcasting - Converting a parent class reference into a child class reference is called explicit downcasting.
+                       - And the process is not automatic so we have to perform explicitly by using typecast opoerator , 
+                         hence it is called as Explicit Downcasting.
+                       - Whenever we try to perform direct downcasting we will get class cast exception because the 
+                         members of sub class are not present in the object created.
+{
+} - Called as method declaration(Implementation).
+Without brackets it is called as abstraction,should be calculated by ;
+
+Concrete method: method with implementation.
+                 class which has only concrete methods.
+abstract method : method without implementation.
+                 class which has can contain both abstract and concrete method.
+Abstract - Hiding unneccessary Data.
