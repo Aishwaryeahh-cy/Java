@@ -1,0 +1,316 @@
+# 🚀 Placement Preparation — Day 15
+
+## 📚 Topics Covered
+
+Today I moved from Java fundamentals toward **interview-style problem solving**.
+
+### 🧠 DSA
+
+* Two Pointer Pattern
+* Reverse Array
+* Reverse String
+* Palindrome
+* Time Complexity: `O(n)`
+* Space Complexity: `O(1)`
+
+### 🗄️ SQL
+
+* `GROUP BY`
+* `COUNT()`
+* `AVG()`
+* `HAVING`
+* Difference between `WHERE` and `HAVING`
+
+### 🌐 JavaScript
+
+* DOM
+* `getElementById()`
+* Events
+* `addEventListener()`
+* Changing HTML using JavaScript
+
+### 🔌 APIs
+
+* API request/response flow
+* HTTP methods:
+
+  * `GET`
+  * `POST`
+  * `PUT`
+  * `DELETE`
+* Common status codes:
+
+  * `200` — Success
+  * `201` — Created
+  * `400` — Bad Request
+  * `401` — Unauthorized
+  * `404` — Not Found
+  * `500` — Server Error
+
+### ☕ Java OOP
+
+* Class
+* Object
+* Fields
+* Methods
+* Constructor
+* Basic understanding of the four pillars to be covered later:
+
+  * Encapsulation
+  * Inheritance
+  * Polymorphism
+  * Abstraction
+
+### 🔧 Git
+
+* Git branches
+* `git branch`
+* Understanding why branches are used for separate development
+
+---
+
+## 💻 DSA Practice
+
+### Reverse String
+
+```java
+class Solution {
+
+    public void reverseString(char[] s) {
+
+        int left = 0;
+        int right = s.length - 1;
+
+        while (left < right) {
+
+            char temp = s[left];
+            s[left] = s[right];
+            s[right] = temp;
+
+            left++;
+            right--;
+        }
+    }
+}
+```
+
+### Palindrome
+
+```java
+class Solution {
+
+    public boolean isPalindrome(String s) {
+
+        int left = 0;
+        int right = s.length() - 1;
+
+        while (left < right) {
+
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+}
+```
+
+### Complexity
+
+```text
+Time  : O(n)
+Space : O(1)
+```
+
+---
+
+## 🗄️ SQL Practice
+
+### 1. Count employees in each department
+
+```sql
+SELECT department, COUNT(*)
+FROM employees
+GROUP BY department;
+```
+
+### 2. Average salary of each department
+
+```sql
+SELECT department, AVG(salary)
+FROM employees
+GROUP BY department;
+```
+
+### 3. Departments having more than 5 employees
+
+```sql
+SELECT department, COUNT(*)
+FROM employees
+GROUP BY department
+HAVING COUNT(*) > 5;
+```
+
+### Key Difference
+
+```text
+WHERE  → filters individual rows before grouping
+HAVING → filters groups after GROUP BY
+```
+
+---
+
+## 🌐 JavaScript Practice
+
+Learned how JavaScript interacts with HTML using the DOM.
+
+```javascript
+const button = document.getElementById("btn");
+
+button.addEventListener("click", function () {
+    document.getElementById("title").textContent = "Welcome!";
+});
+```
+
+### Flow
+
+```text
+HTML
+ ↓
+JavaScript finds element
+ ↓
+User clicks button
+ ↓
+Event occurs
+ ↓
+JavaScript changes HTML
+```
+
+---
+
+## 🔌 API Architecture
+
+Understood the basic software architecture:
+
+```text
+React
+   ↓
+API Request
+   ↓
+Backend
+   ↓
+Database
+   ↓
+Backend Response
+   ↓
+API
+   ↓
+React
+```
+
+### ShipTrack Example
+
+```text
+React
+   ↓
+GET /api/shipments/SHP1001
+   ↓
+Backend
+   ↓
+MySQL
+   ↓
+Shipment Data
+   ↓
+React displays the data
+```
+
+This connects the frontend work in my **ShipTrack Logistics Shipment Tracking System** with backend and database concepts.
+
+---
+
+## ☕ OOP Basics
+
+### Class
+
+A blueprint for creating objects.
+
+### Object
+
+An instance of a class.
+
+### Method
+
+A block of code inside a class that performs a specific task.
+
+Example:
+
+```java
+class Student {
+
+    String name;
+    int age;
+
+    void study() {
+        System.out.println("Student is studying");
+    }
+}
+```
+
+---
+
+## 🎯 Day 1 Outcome
+
+| Topic                   | Status                      |
+| ----------------------- | --------------------------- |
+| Two Pointers            | 🟢 Understand               |
+| Palindrome              | 🟡 Practicing               |
+| Time & Space Complexity | 🟡 Learning                 |
+| GROUP BY                | 🟡 Learning                 |
+| HAVING                  | 🟡 Learning                 |
+| DOM                     | 🟢 Basic                    |
+| Events                  | 🟡 Basic                    |
+| API Flow                | 🟢 Good Basic Understanding |
+| Class & Object          | 🟢 Good                     |
+| Methods                 | 🟡 Learning                 |
+
+---
+
+## 📈 DSA Pattern Roadmap
+
+```text
+Two Pointers
+     ↓
+Sliding Window
+     ↓
+HashMap / HashSet
+     ↓
+Prefix Sum
+     ↓
+Binary Search
+     ↓
+Stack
+     ↓
+Queue
+     ↓
+Linked List
+     ↓
+Recursion
+     ↓
+Trees
+     ↓
+Heap
+     ↓
+Greedy
+     ↓
+Dynamic Programming
+```
+
+## 🚀 Next Step
+
+**Day 2 → Sliding Window**
+
+The goal is to gradually move from basic Java knowledge to **placement-level problem solving** through patterns and practical software-development concepts.
