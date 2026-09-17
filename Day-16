@@ -1,0 +1,89 @@
+# Day 16
+
+## Topics Covered
+
+### Java DSA — Two Pointers
+
+* Understood the Two Pointer pattern.
+* Learned `left = 0` and `right = length - 1`.
+* Practiced:
+
+  * Reverse String
+  * Valid Palindrome
+* Learned array vs String indexing:
+
+  * Array → `arr[index]`
+  * String → `str.charAt(index)`
+* Learned:
+
+  * `array.length`
+  * `String.length()`
+* Learned swapping using a temporary variable.
+* Reviewed time and space complexity.
+
+### SQL
+
+* `GROUP BY`
+* `COUNT()`
+* `AVG()`
+* `HAVING`
+* Difference between `WHERE` and `HAVING`
+
+### JavaScript
+
+* DOM
+* `document.getElementById()`
+* Browser events
+* `addEventListener()`
+* `textContent`
+
+### APIs
+
+* Frontend → API → Backend → Database flow
+* HTTP methods:
+
+  * GET
+  * POST
+  * PUT
+  * DELETE
+* HTTP status codes:
+
+  * 200
+  * 201
+  * 400
+  * 401
+  * 404
+  * 500
+
+### Java OOP
+
+* Class
+* Object
+* Field
+* Method
+* Constructor
+* `main()` method
+
+### Git
+
+* Git branches
+* `git branch`
+* `git switch`
+* Feature-based development
+
+## Assessment
+
+Theory Score: **82/100**
+
+Coding assessment: **Pending**
+
+## Key Improvements
+
+* Review Big-O complexity.
+* Memorize common HTTP status codes.
+* Practice `textContent` and `addEventListener()`.
+* Complete the Two Pointer coding problems.
+
+## Next Step
+
+Continue with **Two Pointer placement-level coding problems** after completing today's coding assessment.
